@@ -39,12 +39,13 @@ transform: scale(1.25) rotate(360deg);
   width: 500px;
   margin: auto;
   background-color: palegreen;
-
+  animation-name: sale-bar;
+animation-duration: 2s;
 }
 
 @keyframes sale-bar {
   0% { background-color: lightgreen; width: 450px }
-  75% { background-color: #FF033E; width: 125x }
+  75% { background-color: #681c2e; width: 125x }
   100% { background-color: crimson; width: 10px }
 }
 added message to test git

@@ -40,7 +40,9 @@ transform: scale(1.25) rotate(360deg);
   margin: auto;
   background-color: palegreen;
   animation-name: sale-bar;
-animation-duration: 2s;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-delay: 5s;
 }
 
 @keyframes sale-bar {

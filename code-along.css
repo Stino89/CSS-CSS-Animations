@@ -24,7 +24,7 @@ transition: 2s
 }
 
 .transition-demo img:hover {
-filter: none
+filter: none;
 transform: scale(1.25) rotate(360deg);
 
 }

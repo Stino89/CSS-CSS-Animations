@@ -47,7 +47,7 @@ animation-delay: 5s;
 
 @keyframes sale-bar {
   0% { background-color: lightgreen; width: 450px }
-  75% { background-color: #681c2e; width: 125x }
-  100% { background-color: crimson; width: 10px }
+  75% { background-color: #681c2e; width: 125x; border-radius: 0; transform: scale(1) }
+  100% { background-color: crimson; width: 10px; border-radius: 100%; transition: scale(0) }
 }
 added message to test git
